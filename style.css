@@ -1,0 +1,94 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  cursor: auto;
+  
+  
+}
+/*----------------CORPO TODO -------------*/
+.container{
+  height: 100vh;
+  width: 100%;
+  background-image: url(media/coringa.jpg);
+  background-size: cover;
+  position: relative;
+  background-position: center;
+  
+}
+
+/*-----------------MENU NAV --------------------*/
+.navbar{
+ 
+width: 88%;
+display: flex;
+justify-content: space-between;
+align-items: center;
+margin: auto;
+padding: 15px 0;
+
+}
+/* --------LOGO----------- */
+.logo {
+  width: 140px;
+  }
+
+  /*- ------------ CORPO DA LISTAS --------------*/
+.navbar ul {
+ list-style: none;
+ display: flex;
+ flex-direction: row;
+margin-left: 40%;}
+
+/*  ------------------ LISTAS EM SI -------------*/
+
+.navbar ul li a {
+  cursor: pointer;
+  text-decoration: none;
+  padding: 10px;
+  padding-left: 5px;
+  color: #fff;
+  font-size: 15px;
+  transition: 300ms ease;
+  
+}
+.navbar ul li a:hover{
+  color: rgb(109, 104, 104);
+}
+
+/* ------------ CONTEUDO DO MEIO ---------------*/
+.content{
+  width: 100%;
+    position: absolute;
+    top: 30%;
+}
+.left-col {
+  margin-left: 6%;
+}
+.left-col h1 {
+  font-size: 90px;
+  color: #fff;
+  line-height: 110px;
+  float: left;
+}
+.right-col {
+  float: right;
+  margin-right: 6%;
+  margin-top: 120px;
+  display: flex;
+  align-items: center;
+}
+.right-col p{
+  color:#fff;
+  font-weight: 400;
+  padding-right: 3%;
+  font-size: 18px;
+  
+  
+}
+.right-col img {
+  width: 80px;
+ cursor: pointer;
+  
+}
